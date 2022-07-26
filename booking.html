@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="book.css">
+	<link href="styles/css/bootstrap.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="newstyle.css">
+</head>
+<body>
+    
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <p class="navbar-brand">Travelsky</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- book section starts  -->
+<br>
+<br>
+<br>
+<br>
+<br>
+ <div class="form">
+        <div class="form-text">
+            <h1>Book Now</h1>
+            <p>Ready for your next Journey</p>
+        </div>
+        <div class="main-form">
+            <form action="index.php" method="get">
+                <div>
+                    <span>Your full name ?</span>
+                    <input type="text" name="name" id="name" placeholder="Write your name here..." required>
+                </div>
+                <div>
+                    <span>Your email address ?</span>
+                    <input type="email" name="name" id="name" placeholder="Write your email here..." required> 
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>Where do yo want to go?</span>
+                    <select name="people" id="people" required>
+                        <option value=""><---Destination---></option>
+                        <option value="1">Labuan Bajo</option>
+                        <option value="2">Bali</option>
+                        <option value="3">Karimunjawa</option>
+                        <option value="4">RajaAmpat</option>
+                        <option value="5">Yogyakarta</option>
+                        <option value="6">Lombok</option>
+                        <option value="7">Pulau Komodo</option>
+                        <option value="8">Bromo</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+               <div>
+                    <!-- <---this is the select option--->
+                    <span>Class</span>
+                    <select name="people" id="people" required>
+                        <option value="1">Premium</option>
+                        <option value="2">Gold</option>
+                        <option value="3">Reguler</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>How many people ?</span>
+                    <select name="people" id="people" required>
+                        <option value=""><---People---></option>
+                        <option value="1">1 People</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <span>What time ?</span>
+                    <input type="text" name="time" id="time" placeholder="Time" required>
+                </div>
+                <div>
+                    <span>What is the date ?</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                <div>
+                    <span>Your phone number ?</span>
+                    <input type="number" name="number" id="number" placeholder="Write your number here..." required>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+            </form>
+            <br>
+<br>
+        </div>
+    </div>
+
+<!-- book section ends -->
+
+<footer id="contact">
+        <div class="layar-dalam">
+          <div>
+            <h5>Info</h5>
+           Official Website of the Ministry of Tourism, Republic Indonsia, After Wonderful Indonesia.
+          </div>
+          <div>
+            <h5>Contact</h5>
+            Call : 089673966952<br>
+            Instagram : Travelsky<br>
+            Email : travelsky@gmail.com
+          </div>
+          <div>
+            <h5>Team</h5>
+            Students from Amikom University
+          </div>
+          <div>
+            <h5>Address</h5>
+            Jl Ring Road Utara, Ngirin, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta, Indonesia, 55281
+          </div>
+        </div>
+        <div class="layar-dalam">
+          <div class="copyright">&copy; 2022 Travelsky</div>
+        </div>
+      </footer>
+<script src="styles/js/jquery-3.6.0.min.js"></script>
+<script src="styles/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

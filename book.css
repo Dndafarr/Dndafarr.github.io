@@ -1,0 +1,157 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: black;
+}
+.home__data-subtitle, 
+.home__data-title, 
+.home__social-link, 
+.home__info {
+  color: white;
+}
+#aboutus,
+#team,
+#blog {
+  text-align: center;
+}
+section.team img{
+  width: 50px;
+}
+#aboutus{
+  padding: 30px;
+  background-color: #80DEEA;
+}
+h2{
+  color: white;
+}
+section.abuabu {
+  padding: 10px;
+  background-color: #f5f6f6;
+}
+a.active,a:hover{
+  background: #80DEEA;
+  transition: .3s;
+}
+a.nav-link{
+  border-radius: 10px;
+}
+.main-form{
+  margin-left: 70px;
+}
+
+
+form{
+    width: 650px;
+}
+
+.form-text{
+    text-align: left;
+    margin: 0 0 40px 0;
+}
+.form-text h1{
+  margin-left: 80px;
+  text-align: left;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text p{
+   margin-left: 80px;
+    color: #fff;
+    font-size: large;
+}
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+
+}
+.main-form div input {
+    width: 100%;
+    background: none;
+    border: 1px solid #80DEEA;;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div select{
+    width: 104%;
+    background: none;
+    border: 1px solid #80DEEA;;
+    font-size: 18px;
+    color: grey;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+}
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    width: 200px;
+    background-color:#80DEEA;
+    color: black !important;
+    transition: all .3s;
+}
+#submit input:hover{
+    width: 200px;
+    background-color: black !important;
+    color: #fff !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #fff !important;
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}
+
+
+
+
+footer {
+  padding: 50px 0px 50px 0px;
+  background-color: #343a40;
+  color: #fff;
+}
+footer .layar-dalam {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .layar-dalam div {
+  width: 20%;
+}
+footer .layar-dalam h5 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+footer .layar-dalam .copyright {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #666;
+  text-align: center;
+}
+
+
+
+

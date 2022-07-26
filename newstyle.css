@@ -1,0 +1,38 @@
+body{
+	background: black;
+}
+.nav-pills{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem !important;
+}  
+.row{
+	margin-right: 10rem;
+	margin-left: 10rem;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+.card{
+	box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
+}
+.card-text{
+	text-align: justify;
+}
+.carousel-caption{
+	bottom: 7rem;
+	color: white;
+	font-size: 5rem;
+	font-family: "Lucida Handwriting";
+	background: rgba(4, 29, 23, 0.5);
+}
+.nav-pills{
+	--bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-link-active-bg: #80DEEA;
+}
+.nav-link{
+	color: white;
+    --bs-nav-link-hover-color: white;
+}
+.nav-link-hover{
+	color: white;
+}
